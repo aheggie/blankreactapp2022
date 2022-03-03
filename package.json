@@ -19,7 +19,20 @@
       "react-app/jest",
       "eslint:recommended",
       "prettier"
-    ]
+    ],
+    "plugins": [],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    }
   },
   "browserslist": {
     "production": [
