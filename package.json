@@ -13,7 +13,9 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
-    "clear": "rmdir /s build"
+    "clear": "rmdir /s /q build",
+    "clearbuild": "npm run clear && npm run build",
+    "clearbuildserve": "npm run clear && npm run build && npx serve -s build"
   },
   "eslintConfig": {
     "extends": [
