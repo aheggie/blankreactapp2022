@@ -15,7 +15,8 @@
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "clear": "rmdir /s /q build",
     "clearbuild": "npm run clear && npm run build",
-    "clearbuildserve": "npm run clear && npm run build && npx serve -s build"
+    "clearbuildserve": "npm run clear && npm run build && npx serve -s build",
+    "flow": "flow"
   },
   "eslintConfig": {
     "extends": [
@@ -82,6 +83,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.2",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "flow-bin": "^0.172.0",
     "stylelint": "^14.5.3",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0"

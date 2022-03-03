@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/resolve/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+react.runtime=automatic
+
+[strict]
