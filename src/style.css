@@ -7,6 +7,15 @@
 }
 
 body {
-  /* thisis placeholder to avoid empty css set error */
-  background-color: aliceblue;
+  /* https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j */
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  /* react #root div will fill the entire page and can be manipulated by js as if it were body
+  (see article in body above) */
+  height: 100%;
+  width: 100%;
+  overflow: auto;
 }
