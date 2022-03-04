@@ -11,3 +11,6 @@
 react.runtime=automatic
 
 [strict]
+
+[version]
+0.172.0
