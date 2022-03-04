@@ -1,5 +1,5 @@
 // @flow
 
-const App = () => <div>Hello Worlll</div>;
+const App = (): React$Element<any> => <div>Hello Worlll</div>;
 
 export default App;
