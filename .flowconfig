@@ -9,6 +9,7 @@
 
 [options]
 react.runtime=automatic
+log.file=flowlog.log
 
 [strict]
 

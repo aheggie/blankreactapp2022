@@ -1,6 +1,10 @@
 # vscode
 *.code-workspace
 
+#flow logs
+*.log
+*.log.old
+
 # dependencies
 /node_modules
 /.pnp
